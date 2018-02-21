@@ -1,21 +1,29 @@
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 220px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 30rem;
+  padding: 5rem;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .App-intro {
