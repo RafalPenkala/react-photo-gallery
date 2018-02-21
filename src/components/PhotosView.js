@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
+
 
 class PhotosView extends Component {
   render() {
     return (
       <div>
-        <h1>Photos of some guys and girls.</h1>
+        <h1>
+          <Link to="/about">Photos of some guys and girls</Link>
+        </h1>
       </div>
     );
   }
