@@ -12,13 +12,15 @@ import AboutView from './components/AboutView';
 import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render (
+ReactDOM.render ((
   <Router>
-      <Route exact path="/" component={App}/>
-      <Route path="photos" component={PhotosView}/>
-      <Route path="about" component={AboutView}/>
+    <div>
+        <Route exact path="/" component={App}/>
+        <Route path="/photos" component={PhotosView}/>
+        <Route path="/about" component={AboutView}/>
+    </div>
   </Router>
-)
+), document.getElementById('root')
+);
 
-ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

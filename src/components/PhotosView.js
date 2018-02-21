@@ -6,8 +6,8 @@ class PhotosView extends Component {
       <div>
         <h1>Photos of some guys and girls.</h1>
       </div>
-    )
+    );
   }
 }
 
-export default PhotosView
+export default PhotosView;

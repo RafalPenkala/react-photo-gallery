@@ -6,8 +6,8 @@ class AboutView extends Component {
       <div>
         <h1>About some guys and girls view.</h1>
       </div>
-    )
+    );
   }
 }
 
-export default AboutView
+export default AboutView;
