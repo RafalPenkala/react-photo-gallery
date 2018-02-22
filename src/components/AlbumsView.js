@@ -8,8 +8,7 @@ import logo from './images/lotus_logo.svg'
 class AlbumsView extends Component {
 render() {
   return (
-    <div className="albums">
-      <div className="albums__box">
+      <div className="albums-box">
       <Card.Group centered itemsPerRow={4}>
         <Card>
           <Link to='./photos'>
@@ -259,7 +258,6 @@ render() {
           </Card.Content>
         </Card>
       </Card.Group>
-      </div>
       </div>
   );
 }

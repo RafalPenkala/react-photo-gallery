@@ -74,7 +74,7 @@ body {
 }
 
 .App-box__details {
-  max-width: 80rem;
+  max-width: 100rem;
   margin: 0 auto;
   padding: 5rem 0;
 }

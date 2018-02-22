@@ -1,6 +1,15 @@
 .about-box {
-  max-width: 80rem;
+  max-width: 100rem;
   margin: 0 auto;
-  padding: 2rem;
+}
+
+.ui.card{
+  width: 100%;
   border: 1px solid #ddc692;
+  border-radius: 1px;  
+}
+
+.ui.card>.content.about-box {
+  border: none;
+  height: 20rem;
 }

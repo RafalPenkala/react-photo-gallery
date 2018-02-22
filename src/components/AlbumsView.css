@@ -1,0 +1,14 @@
+.albums-box {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ddc692;
+}
+
+.albums-box .ui.card>.content, 
+.ui.cards>.card>.content,
+.albums-box.ui.cards>.card>.extra,
+img.ui.image
+ {
+  border: 1px solid #ddc692;
+ }

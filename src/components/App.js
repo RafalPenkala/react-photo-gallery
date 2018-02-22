@@ -23,12 +23,12 @@ class App extends Component {
         
         <div className="App-box">
           <div className="App-box__details">
-            <PhotosView/>
+            <AlbumsView/>
           </div>
         </div>
 
         <div className="App-footer">
-          <p>Copyrights © 2018. LOTUS Photo Gallery. All rights reserved.</p>
+          <p>Copyrights © 2018. Lotus Photo Gallery. All rights reserved.</p>
         </div>
       </div>
       
