@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button, Input } from 'semantic-ui-react'
 import PhotosView from './PhotosView';
 import AboutView from './AboutView';
 import AlbumsView from './AlbumsView';
@@ -13,14 +14,17 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+            <Input placeholder='Search by keyword' className="App-input" />
+            <Button content='search' className="App-btn" />
           <p className="App-heading">
             Gallery
           </p>
         </div>
         
-        <div className="App-container">
-          
-          <AlbumsView/>
+        <div className="App-box">
+          <div className="App-box__details">
+            <AlbumsView/>
+          </div>
         </div>
 
         <div className="App-footer">

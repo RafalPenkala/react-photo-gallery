@@ -15,6 +15,41 @@ body {
 
 .App-logo {
   height: 220px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ui.input>input {
+  border-radius: 2px;
+  border: 2px solid #e2c175;
+  display: block;
+  padding: 1.2rem 3rem; 
+}
+
+.ui.input.focus>input, .ui.input>input:focus {
+  border: 2px solid #e2c175;
+}
+
+.ui.input>input::placeholder {
+  text-align: center;
+}
+
+
+.ui.button, .ui.buttons .button, .ui.buttons .or {
+  background-color: #ddc692;
+  border-radius: 2px;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1.5rem auto;
+  padding: 1.2rem 2.5rem;
+  text-transform: uppercase;
+}
+
+.ui.button:hover {
+  background-image: none;
+  background-color: #e2c175;
+  border-radius: 2px;
 }
 
 .App-header {
@@ -30,10 +65,15 @@ body {
 
 .App-box {
   background-color: #ffffff;
-  height: 30rem;
-  padding: 5rem 0 50rem 0;
-  font-size: 4rem;  
-  color: #000000;
+  padding: 5rem auto 70rem;
+  font-size: inherit;  
+}
+
+.App-box__details {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 5rem 0 70rem 0;
+  z-index: 1000;
 }
 
 .App-footer {
