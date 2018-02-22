@@ -54,26 +54,27 @@ body {
 
 .App-header {
   background-color: #1b1e23;
-  padding: 3rem 0 10rem 0;
+  padding: 3rem 0 5rem 0;
   color: white;
 }
 
 .App-heading {
   font-size: 3rem;
   text-transform: uppercase;
+  padding-top: 5rem;
 }
 
 .App-box {
   background-color: #ffffff;
-  padding: 5rem auto 70rem;
+  padding: 50rem auto 70rem;
   font-size: inherit;  
+  position: relative;
 }
 
 .App-box__details {
   max-width: 80rem;
   margin: 0 auto;
-  padding: 5rem 0 70rem 0;
-  z-index: 1000;
+  padding: 5rem 0;
 }
 
 .App-footer {
