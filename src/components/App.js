@@ -5,7 +5,7 @@ import AboutView from './AboutView';
 import AlbumsView from './AlbumsView';
 
 
-import logo from './lotus_logo.svg';
+import logo from './images/lotus_logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -23,7 +23,7 @@ class App extends Component {
         
         <div className="App-box">
           <div className="App-box__details">
-            <AlbumsView/>
+            <PhotosView/>
           </div>
         </div>
 

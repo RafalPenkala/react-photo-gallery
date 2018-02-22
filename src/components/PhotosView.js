@@ -4,6 +4,8 @@ import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 import Measure from 'react-measure';
 
+import './PhotosView.css';
+
 
 const photos = [
   { src: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599', width: 4, height: 3 },
@@ -50,7 +52,7 @@ class PhotosView extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="photos-box">
         <Gallery photos={photos} onClick={this.openLightbox} />
         <Lightbox images={photos}
           onClose={this.closeLightbox}
