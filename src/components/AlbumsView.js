@@ -3,7 +3,7 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
 import './AlbumsView.css'
-import logo from './images/lotus_logo.svg'
+import logo from './images/photo_4.jpg'
 
 class AlbumsView extends Component {
 render() {

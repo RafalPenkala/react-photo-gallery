@@ -7,31 +7,31 @@ import budda from './images/photo_3.jpg';
 
 
 class AboutView extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //   albums : [],
-  //   };
-  // }
+  constructor() {
+    super();
+    this.state = {
+    albums : [],
+    };
+  }
   
-//   componentDidMount () {
-//     fetch('https://jsonplaceholder.typicode.com/albums')
-//     .then(response => { 
-//       return response.json();
-//     }).then(data => { 
-//       let albums = data.map((album) => {
-//       return(
-//         <div key={album.userId}>
-//         {/* <div src={album.userId}></div> */}
-//         </div>
+  componentDidMount () {
+    fetch('https://jsonplaceholder.typicode.com/albums')
+    .then(response => { 
+      return response.json();
+    }).then(data => { 
+      let albums = data.map((album) => {
+      return(
+        <div key={album.userId}>
+        {/* <div src={album.userId}></div> */}
+        </div>
 
-//       )
-//     })
+      )
+    })
 
-//     this.setState({albums : data});
-//     console.log("wyświetl stan", this.state.albums)
-//     })
-// }
+    this.setState({albums : data});
+    console.log("wyświetl stan", this.state.albums)
+    })
+}
 
 
  

@@ -3,6 +3,12 @@ import { Button, Input } from 'semantic-ui-react'
 import PhotosView from './PhotosView';
 import AboutView from './AboutView';
 import AlbumsView from './AlbumsView';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
+
 
 
 import logo from './images/lotus_logo.svg';
@@ -23,7 +29,11 @@ class App extends Component {
         
         <div className="App-box">
           <div className="App-box__details">
-            <AlbumsView/>
+            <Switch>
+              <Route exact path="/" component={AlbumsView}/>
+              <Route exact path="/photos" component={PhotosView}/>
+              <Route exact path="/about" component={AboutView}/>
+            </Switch>
           </div>
         </div>
 
