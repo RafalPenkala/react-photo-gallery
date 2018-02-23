@@ -1,7 +1,6 @@
 .about-box {
   max-width: 100rem;
   margin: 0 auto;
-  position: relative;
 }
 
 .about-circular {
@@ -18,14 +17,18 @@
 
 .ui.card{
   width: 100%;
+  min-height: 60rem;
   border: 1px solid #ddc692;
   border-radius: 1px;
   box-shadow: 5px 4px 6px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  position: relative;
 }
 
 .about-box .ui.card>.content{
-  height: 15rem;
-  padding: 0 5rem;
+  position: absolute;
+  top: 35rem;
+  left: 15rem;
+  padding: 1rem 10rem;
   border-top: none;
 }
 
@@ -39,4 +42,28 @@ a:hover {
   color: #665836; 
 }
 
+@media screen and (max-width: 56.5em) {
+  .about-box .ui.card>.content{
+    padding: 1rem 7rem;
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+  }
+}
 
+@media screen and (max-width: 37.5em) {
+  .about-box .ui.card>.content{
+    padding: 1rem 5rem;
+    position: absolute;
+    top: 25rem;
+    left: 5rem;
+  }
+
+  .ui.card>.image.about-circular, .ui.cards>.card>.image.about-circular {
+    width: 12em;
+    height: 12em;
+    position: absolute;
+    top: 9rem;
+    left: 3rem;
+  }
+}

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Card, Image } from 'semantic-ui-react'
 
 import './AboutView.css';
+import land from './images/photo_3.jpg';
 import face from './images/face_2.png';
 
 
@@ -21,9 +22,7 @@ class AboutView extends Component {
 //     }).then(data => { 
 //       let albums = data.map((album) => {
 //       return(
-//         <div key={album.userId}>
-//         {/* <div src={album.userId}></div> */}
-//         </div>
+//       
 
 //       )
 //     })
@@ -39,8 +38,9 @@ class AboutView extends Component {
     return (
       <div className="about-box">
        <Card>
+        <Image src={land} fluid/>
         <Image src={face} size='small' circular className="about-circular"/>
-        <Card.Content>
+        <Card.Content textAlign="left">
           <Card.Header>
             Matthew
           </Card.Header>
@@ -55,7 +55,9 @@ class AboutView extends Component {
           </Card.Description>
         </Card.Content>
        </Card>
-        {/* <div>{this.state.albums}</div> */}
+        {/* <div key={album.userId}>
+         <div src={album.userId}></div>
+         </div> */}
       </div>
     );
   }

@@ -16,7 +16,7 @@ render() {
           </Link>
           
           <Card.Content>
-            <Card.Header>Daniel Morris</Card.Header>
+            <Card.Header><span className="albums-name">Daniel Morris</span></Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>

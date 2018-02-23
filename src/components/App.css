@@ -1,6 +1,17 @@
 html {
   font-size: 62.5%; /* 1rem = 10px */
   font-family: 'Lato', sans-serif;
+ }
+
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; }
 }
 
 body {
@@ -15,7 +26,8 @@ body {
 }
 
 .App-logo {
-  height: 25rem;
+  height: 25rem;  
+  text-align: center;
   display: block;
   margin: 0 auto;
 }
@@ -82,7 +94,7 @@ body {
 
 .App-footer {
   background-color: #222222;
-  padding: 15rem 0 3rem 0;
+  padding: 5rem 0 5rem 0;
   font-size: 1.3rem;
   color: #e2c175;  
 }
@@ -95,7 +107,40 @@ body {
 .icons__img {
   width: 15rem;
   height: 15rem;
-  padding: .5rem;
-  margin-top: 1rem;
 }
+
+
+/* Media Queries
+
+0-600px:      Phone
+600-900px:    Tablet Portrait
+900-1200px:   Tablet Landscape
+1200-1800px:  [is where normal styles apply]
+1800px +  :   Big Desktop 
+*/
+
+/* @media screen and (max-width: 56.25em) {
+  .App-logo {
+    height: 20%;
+    width: 20%;  
+    display: block;
+    margin: 0 auto;
+  }
+} */
+   
+
+  @media screen and (max-width: 56.25em) {
+    .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+      font-size: 1em; } 
+
+      .icons__img {
+        width: 10rem;
+        height: 10rem; } }
+
+  @media screen and (max-width: 37.5em) {
+    .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+      font-size: .8em; } }
+
+
+
 

@@ -14,10 +14,10 @@ render() {
   return (
     <div className="App-footer">
     <div className="App-footer__icons">
-    <img src={beh} alt="behance" className="icons__img"/>
-    <img src={twit} alt="twitter" className="icons__img"/>
-    <img src={face} alt="facebook" className="icons__img"/>
-    <img src={pint} alt="pinterest" className="icons__img"/>
+    <a href="https://www.behance.net/" target="_blank"><img src={beh} alt="behance" className="icons__img"/></a>
+    <a href="https://twitter.com/" target="_blank"><img src={twit} alt="twitter" className="icons__img"/></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src={face} alt="facebook" className="icons__img"/></a>
+    <a href="https://no.pinterest.com/" target="_blank"><img src={pint} alt="pinterest" className="icons__img"/></a>
 
       </div>
     <p>Copyrights © 2018. Lotus Photo Gallery. All rights reserved.</p>
