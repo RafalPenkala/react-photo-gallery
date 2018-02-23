@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Card, Image } from 'semantic-ui-react'
 
 import './AboutView.css';
-import budda from './images/photo_3.jpg';
 import face from './images/face_2.png';
 
 
@@ -40,7 +39,6 @@ class AboutView extends Component {
     return (
       <div className="about-box">
        <Card>
-        <Image src={budda}/>
         <Image src={face} size='small' circular className="about-circular"/>
         <Card.Content>
           <Card.Header>

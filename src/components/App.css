@@ -24,7 +24,7 @@ body {
   border-radius: 2px;
   border: 2px solid #e2c175;
   display: block;
-  padding: 1.2rem 3rem; 
+  padding: 1.2rem 5rem; 
 }
 
 .ui.input.focus>input, .ui.input>input:focus {
@@ -37,19 +37,20 @@ body {
 
 
 .ui.button, .ui.buttons .button, .ui.buttons .or {
-  background-color: #ddc692;
+  background-color: #e2c175;
   border-radius: 2px;
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin: 1.5rem auto;
-  padding: 1.2rem 2.5rem;
+  padding: 1.2rem 3rem;
   text-transform: uppercase;
 }
 
 .ui.button:hover {
   background-image: none;
-  background-color: #e2c175;
+  background-color: #e2ca92;
+  font-weight: 700;
   border-radius: 2px;
 }
 
@@ -83,5 +84,18 @@ body {
   background-color: #222222;
   padding: 15rem 0 3rem 0;
   font-size: 1.3rem;
-  color: #ddc692;  
+  color: #e2c175;  
 }
+
+.App-footer__icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons__img {
+  width: 15rem;
+  height: 15rem;
+  padding: .5rem;
+  margin-top: 1rem;
+}
+

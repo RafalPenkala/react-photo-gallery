@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Button, Input } from 'semantic-ui-react'
 
+
 import logo from './images/lotus_logo.svg';
 import './App.css';
 
