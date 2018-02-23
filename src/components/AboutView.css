@@ -28,7 +28,7 @@
   position: absolute;
   top: 35rem;
   left: 15rem;
-  padding: 1rem 10rem;
+  padding: 1rem 6rem;
   border-top: none;
 }
 
@@ -44,10 +44,16 @@ a:hover {
 
 @media screen and (max-width: 56.5em) {
   .about-box .ui.card>.content{
-    padding: 1rem 7rem;
+    padding: 1rem 3rem 1rem 8rem;
     position: absolute;
     top: 35rem;
     left: 15rem;
+  }
+
+  .ui.card>.image.about-circular, .ui.cards>.card>.image.about-circular {
+    position: absolute;
+    top: 23rem;
+    left: 3rem;
   }
 }
 
@@ -56,14 +62,14 @@ a:hover {
     padding: 1rem 5rem;
     position: absolute;
     top: 25rem;
-    left: 5rem;
+    left: 3rem;
   }
 
   .ui.card>.image.about-circular, .ui.cards>.card>.image.about-circular {
     width: 12em;
     height: 12em;
     position: absolute;
-    top: 9rem;
+    top: 10rem;
     left: 3rem;
   }
 }

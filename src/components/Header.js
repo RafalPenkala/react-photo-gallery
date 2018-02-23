@@ -12,9 +12,6 @@ render() {
           <img src={logo} className="App-logo" alt="logo" />
             <Input placeholder='Search by keyword' className="App-input" />
             <Button content='search' className="App-btn" />
-          <p className="App-heading">
-            Gallery
-          </p>
         </div>
   );
 }

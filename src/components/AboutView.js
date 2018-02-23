@@ -50,7 +50,7 @@ class AboutView extends Component {
             </span>
           </Card.Meta>
           <Card.Description>
-            Matthew is a musician living in Nashville. Integer eu nunc vulputate, condimentum erat a, accumsan elit. In sit amet ipsum id metus elementum tristique sit amet vitae enim. magna feugiat condimentum.<br/>
+            Matthew is a musician living in Nashville. Integer eu nunc vulputate, condimentum erat a, accumsan elit. In sit amet ipsum id metus elementum tristique sit amet vitae enim. magna feugiat condimentum.<br/><br/>
           <a href="https://www.behance.net/">Portfolio</a>
           </Card.Description>
         </Card.Content>
