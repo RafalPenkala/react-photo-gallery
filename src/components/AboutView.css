@@ -1,15 +1,42 @@
 .about-box {
   max-width: 100rem;
   margin: 0 auto;
+  position: relative;
+}
+
+.about-circular {
+  position: absolute;
+  top: -8.5rem;
+  left: 3rem;
+  z-index: 100;
+}
+
+.ui.card>.image.about-circular, .ui.cards>.card>.image.about-circular {
+  background: transparent;
+  border: none;
 }
 
 .ui.card{
   width: 100%;
   border: 1px solid #ddc692;
-  border-radius: 1px;  
+  border-radius: 1px;
+  box-shadow: 5px 4px 6px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
 }
 
-.ui.card>.content.about-box {
-  border: none;
-  height: 20rem;
+.about-box .ui.card>.content{
+  height: 15rem;
+  padding: 0 5rem;
+  border-top: none;
 }
+
+a:link,
+a:visited {
+  color: #dfb961; 
+}
+
+a:active,
+a:hover {
+  color: #665836; 
+}
+
+
