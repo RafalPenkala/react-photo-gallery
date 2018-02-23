@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Input } from 'semantic-ui-react'
+import { Button, Input, Popup } from 'semantic-ui-react'
 
 
 import logo from './images/lotus_logo.svg';
@@ -10,7 +10,12 @@ render() {
   return (
        <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-            <Input placeholder='Search by keyword' className="App-input" />
+          <Popup className="App-input__popup"
+            trigger={<Input placeholder='Search by keyword' className="App-input" />}
+            content='Enter "Spain" or "Peter" to find your album by keyword'
+            on='hover'
+          />
+            
             <Button content='search' className="App-btn" />
         </div>
   );

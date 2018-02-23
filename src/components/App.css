@@ -61,7 +61,7 @@ body {
 
 .ui.button:hover {
   background-image: none;
-  background-color: #e2ca92;
+  background-color: #e9bd55;
   font-weight: 700;
   border-radius: 2px;
 }
@@ -85,6 +85,10 @@ body {
   position: relative;
 }
 
+.App-input__popup:hover {
+  transition: all .2s;
+}
+
 .App-box__details {
   max-width: 100rem;
   margin: 0 auto;
@@ -106,6 +110,11 @@ body {
 .icons__img {
   width: 15rem;
   height: 15rem;
+  transition: all .2s;
+}
+
+.icons__img:hover {
+  transform: scale(1.2);
 }
 
 
@@ -138,7 +147,11 @@ body {
 
   @media screen and (max-width: 37.5em) {
     .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
-      font-size: .8em; } }
+      font-size: .8em; }
+
+      .ui.card>.extra a:not(.ui), .ui.cards>.card>.extra a:not(.ui) {
+        font-size: .8em; } 
+      }
 
 
 
