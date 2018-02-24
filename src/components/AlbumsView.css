@@ -2,7 +2,7 @@
   max-width: 100rem;
   margin: 0 auto;
   padding: 2rem;
-  border: 1px solid #ddc692;
+  border: 1px solid #dcc380;
 }
 
 .albums-box .ui.card>.content, 
@@ -10,7 +10,7 @@
 .albums-box.ui.cards>.card>.extra,
 img.ui.image
  {
-  border: 1px solid #ddc692;
+  border: 1px solid #dcc380;
  }
 
 
@@ -31,7 +31,7 @@ img.ui.image
  }
 
  .ui.card>.extra a:not(.ui):hover, .ui.cards>.card>.extra a:not(.ui):hover {
-  color: #e2c175;  
+  color: #dcc380;  
  }
 
  

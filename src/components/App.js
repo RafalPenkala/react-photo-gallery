@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollUpButton from "react-scroll-up-button";
 import PhotosView from './PhotosView';
 import AboutView from './AboutView';
 import AlbumsView from './AlbumsView';
@@ -9,14 +10,19 @@ import {
   Switch
 } from 'react-router-dom';
 
-
 import './App.css';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
        <Header/>
+       <div>
+            <div>
+                <ScrollUpButton ContainerClassName='ScrollUpButton__Container'/>
+            </div>
+       </div>
         <div className="App-box">
           <div className="App-box__details">
             <Switch>

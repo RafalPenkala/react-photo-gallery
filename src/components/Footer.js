@@ -19,7 +19,7 @@ render() {
     <a href="https://no.pinterest.com/" target="_blank" rel="noopener noreferrer"><img src={pint} alt="pinterest" className="icons__img"/></a>
 
       </div>
-    <p>Copyrights © 2018. Lotus Photo Gallery. All rights reserved.</p>
+    <p className="App-footer__copy">Copyright &copy; 2018. All rights reserved.</p>
     </div>
   );
 }

@@ -8,32 +8,6 @@ import face from './images/face_2.png';
 
 
 class AboutView extends Component {
-//   constructor() {
-//     super();
-//     this.state = {
-//     albums : [],
-//     };
-//   }
-  
-//   componentDidMount () {
-//     fetch('https://jsonplaceholder.typicode.com/albums')
-//     .then(response => { 
-//       return response.json();
-//     }).then(data => { 
-//       let albums = data.map((album) => {
-//       return(
-//       
-
-//       )
-//     })
-
-//     this.setState({albums : data});
-//     console.log("wyświetl stan", this.state.albums)
-//     })
-// }
-
-
- 
   render() {
     return (
       <div>

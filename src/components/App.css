@@ -24,13 +24,13 @@ body {
 
 .ui.input>input {
   border-radius: 2px;
-  border: 2px solid #e2c175;
+  border: 2px solid #dcc380;
   display: block;
   padding: 1.2rem 5rem; 
 }
 
 .ui.input.focus>input, .ui.input>input:focus {
-  border: 2px solid #e2c175;
+  border: 2px solid #dcc380;
 }
 
 .ui.input>input::-webkit-input-placeholder {
@@ -51,7 +51,7 @@ body {
 
 
 .ui.button, .ui.buttons .button, .ui.buttons .or {
-  background-color: #e2c175;
+  background-color: #d8bc6e;
   border-radius: 2px;
   display: block;
   font-size: 1.2rem;
@@ -63,7 +63,7 @@ body {
 
 .ui.button:hover {
   background-image: none;
-  background-color: #e9bd55;
+  background-color: #dcc380;
   font-weight: 700;
   border-radius: 2px;
 }
@@ -103,7 +103,7 @@ body {
   background-color: #222222;
   padding: 5rem 0 5rem 0;
   font-size: 1.3rem;
-  color: #e2c175;  
+  color: #dcc380;  
 }
 
 .App-footer__icons {
@@ -113,6 +113,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.App-footer__copy {
+  letter-spacing: 1px;
 }
 
 .icons__img {
@@ -127,6 +131,10 @@ body {
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.ScrollUpButton__Container {
+  background-color: #dcc380 !important;
 }
 
 
