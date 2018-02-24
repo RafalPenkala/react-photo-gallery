@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import { Card, Image } from 'semantic-ui-react'
+import { Card, Image, Icon } from 'semantic-ui-react'
 
 import './AboutView.css';
 import land from './images/photo_3.jpg';
@@ -11,8 +11,7 @@ class AboutView extends Component {
   render() {
     return (
       <div>
-             <Link to="/"><p className="back-btn">&larr; back</p>
-</Link>   
+        <Link to="/"><p className="back-btn"><Icon name="angle left" />BACK</p></Link>   
       <div className="about-box">
        <Card>
         <Image src={land} fluid/>

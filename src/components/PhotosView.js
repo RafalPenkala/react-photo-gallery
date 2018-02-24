@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import { Icon } from 'semantic-ui-react'
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
@@ -52,9 +53,7 @@ class PhotosView extends Component {
   render() {
     return (
       <div>
-              <Link to="/"><p className="back-btn">&larr; back</p>
-</Link>   
-
+            <Link to="/"><p className="back-btn"><Icon name="angle left" />BACK</p></Link>   
       <div className="photos-box">
         <Gallery photos={photos} onClick={this.openLightbox} />
         <Lightbox images={photos}

@@ -1,37 +1,37 @@
 .albums-box {
-  max-width: 100rem;
-  margin: 0 auto;
-  padding: 2rem;
-  border: 1px solid #dcc380;
-}
-
-.albums-box .ui.card>.content, 
-.ui.cards>.card>.content,
-.albums-box.ui.cards>.card>.extra,
-img.ui.image
- {
-  border: 1px solid #dcc380;
- }
-
-
- .ui.card, .ui.cards>.card {
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
- }
-
- .uicard:hover, .ui.cards>.card:hover {
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
- }
-
- .ui.card>.extra a:not(.ui):hover, .ui.cards>.card>.extra a:not(.ui):hover {
-  color: #dcc380;  
- }
-
- 
+        max-width: 100rem;
+        margin: 0 auto;
+        padding: 2rem;
+        border: 1px solid #dcc380;
+      }
+      
+      .albums-box .ui.card>.content, 
+      .ui.cards>.card>.content,
+      .albums-box.ui.cards>.card>.extra,
+      img.ui.image
+       {
+        border: 1px solid #dcc380;
+       }
+      
+      
+       .ui.card, .ui.cards>.card {
+        -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+                box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+       }
+      
+       .uicard:hover, .ui.cards>.card:hover {
+        -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+                box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+       }
+      
+       .ui.card>.extra a:not(.ui):hover, .ui.cards>.card>.extra a:not(.ui):hover {
+        color: #dcc380;  
+       }
+      
+       
