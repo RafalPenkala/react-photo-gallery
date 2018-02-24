@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import { Icon } from 'semantic-ui-react'
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
-import Measure from 'react-measure';
 
 import './PhotosView.css';
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, Image, Icon } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
 import './AlbumsView.css'
@@ -11,8 +11,6 @@ import img5 from './images/photo_8.jpg'
 import img6 from './images/photo_9.jpg'
 import img7 from './images/photo_10.jpg'
 import img8 from './images/photo_11.jpg'
-
-
 
 
 class AlbumsView extends Component {

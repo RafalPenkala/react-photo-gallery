@@ -5,7 +5,6 @@ import AlbumsView from './AlbumsView';
 import Header from './Header';
 import Footer from './Footer';
 import {
-  BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';

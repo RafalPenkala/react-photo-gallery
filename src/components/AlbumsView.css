@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   border: 1px solid #ddc692;
-  box-shadow: 5px 4px 6px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
 }
 
 .albums-box .ui.card>.content, 
@@ -16,12 +15,23 @@ img.ui.image
 
 
  .ui.card, .ui.cards>.card {
-  box-shadow: 3px 2px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
   transition: all .3s;
  }
 
  .uicard:hover, .ui.cards>.card:hover {
-  transform: scale(1.05);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+ }
+
+ .ui.card>.extra a:not(.ui):hover, .ui.cards>.card>.extra a:not(.ui):hover {
+  color: #e2c175;  
  }
 
  

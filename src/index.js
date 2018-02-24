@@ -8,8 +8,6 @@ import 'semantic-ui-css/semantic.min.css';
 import './index.css';
 
 import App from './components/App';
-import PhotosView from './components/PhotosView';
-import AboutView from './components/AboutView';
 import registerServiceWorker from './registerServiceWorker';
 
 

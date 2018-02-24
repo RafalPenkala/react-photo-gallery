@@ -4,7 +4,8 @@ html {
  }
 
 body {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin: 0 auto;
@@ -30,6 +31,18 @@ body {
 
 .ui.input.focus>input, .ui.input>input:focus {
   border: 2px solid #e2c175;
+}
+
+.ui.input>input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.ui.input>input:-ms-input-placeholder {
+  text-align: center;
+}
+
+.ui.input>input::-ms-input-placeholder {
+  text-align: center;
 }
 
 .ui.input>input::placeholder {
@@ -75,6 +88,8 @@ body {
 }
 
 .App-input__popup:hover {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
   transition: all .2s;
 }
 
@@ -92,18 +107,26 @@ body {
 }
 
 .App-footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .icons__img {
   width: 15rem;
   height: 15rem;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
   transition: all .2s;
 }
 
 .icons__img:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 
@@ -148,10 +171,9 @@ body {
     .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
       font-size: .8em; }
 
-      .ui.card>.extra a:not(.ui), .ui.cards>.card>.extra a:not(.ui) {
-        font-size: .8em; } 
+    .ui.card>.extra a:not(.ui), .ui.cards>.card>.extra a:not(.ui) {
+      font-size: .8em; } 
       }
-
 
 
 

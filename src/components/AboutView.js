@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import { Card, Image, Icon } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 
 import './AboutView.css';
 import land from './images/photo_3.jpg';
@@ -54,7 +54,7 @@ class AboutView extends Component {
           </Card.Meta>
           <Card.Description>
             Matthew is a musician living in Nashville. Integer eu nunc vulputate, condimentum erat a, accumsan elit. In sit amet ipsum id metus elementum tristique sit amet vitae enim. magna feugiat condimentum.<br/><br/>
-          <a href="https://www.behance.net/" target="_blank">Portfolio</a>
+          <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">Portfolio</a>
           </Card.Description>
         </Card.Content>
        </Card>
