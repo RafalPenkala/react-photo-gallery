@@ -3,17 +3,6 @@ html {
   font-family: 'Lato', sans-serif;
  }
 
-  @media only screen and (max-width: 75em) {
-    html {
-      font-size: 56.25%; } }
-  @media only screen and (max-width: 56.25em) {
-    html {
-      font-size: 50%; } }
-  @media only screen and (min-width: 112.5em) {
-    html {
-      font-size: 75%; }
-}
-
 body {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
@@ -135,7 +124,17 @@ body {
     margin: 0 auto;
   }
 } */
-   
+
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; }
+  }
 
   @media screen and (max-width: 56.25em) {
     .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {

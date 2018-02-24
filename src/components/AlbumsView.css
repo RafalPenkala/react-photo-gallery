@@ -13,3 +13,11 @@ img.ui.image
  {
   border: 1px solid #ddc692;
  }
+
+
+ .ui.card, .ui.cards>.card {
+  box-shadow: 3px 2px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+
+ }
+
+ 
