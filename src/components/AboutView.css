@@ -33,16 +33,6 @@
   border-top: none;
 }
 
-i.icon.back-btn, i.icons.back-btn {
-  font-size: 2rem;
-  float: left;
-}
-
-i.icon.back-btn::before, i.icons.back-btn::before {
-  font-size: 3rem;
-  float: left;
-}
-
 a:link,
 a:visited {
   color: #dfb961; 
