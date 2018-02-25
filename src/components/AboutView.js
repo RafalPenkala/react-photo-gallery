@@ -10,7 +10,7 @@ import face from './images/face_2.png';
 class AboutView extends Component {
   render() {
     return (
-      <div>
+    <div>
         <Link to="/"><p className="back-btn"><Icon name="angle left" />BACK</p></Link>   
       <div className="about-box">
        <Card>
@@ -31,14 +31,10 @@ class AboutView extends Component {
           </Card.Description>
         </Card.Content>
        </Card>
-        {/* <div key={album.userId}>
-         <div src={album.userId}></div>
-         </div> */}
       </div>
-      </div>
+    </div>
     );
   }
 }
-
 
 export default AboutView;

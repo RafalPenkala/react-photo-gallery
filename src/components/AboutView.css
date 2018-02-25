@@ -5,8 +5,8 @@
 
 .about-circular {
   position: absolute;
-  top: -8.5rem;
   left: 3rem;
+  top: -8.5rem;  
   z-index: 100;
 }
 
@@ -42,17 +42,6 @@ a:active,
 a:hover {
   color: #665836; 
 }
-
-/* @media screen and (max-width: 75em) {
-  .about-box .ui.card>.content{
-    padding: 1rem 3rem 1rem 8rem;
-    position: absolute;
-    top: 35rem;
-    left: 15rem;
-  }
-
-} */
-
 
 @media screen and (max-width: 56.5em) {
   .about-box .ui.card>.content{

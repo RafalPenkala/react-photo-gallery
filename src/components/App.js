@@ -19,9 +19,9 @@ class App extends Component {
       <div className="App">
        <Header/>
        <div>
-            <div>
-                <ScrollUpButton ContainerClassName='ScrollUpButton__Container'/>
-            </div>
+        <div>
+           <ScrollUpButton ContainerClassName='ScrollUpButton__Container'/>
+        </div>
        </div>
         <div className="App-box">
           <div className="App-box__details">
@@ -33,9 +33,7 @@ class App extends Component {
           </div>
         </div>
         <Footer/>
-        
       </div>
-      
     );
   }
 }

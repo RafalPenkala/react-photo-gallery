@@ -18,6 +18,7 @@ render() {
   return (
       <div className="albums-box">
       <Card.Group centered stackable doubling itemsPerRow={4}>
+
         <Card>
           <Link to='./photos'>
             <Image src={img1} />
@@ -32,7 +33,7 @@ render() {
           </Card.Content>
         </Card>
 
-             <Card>
+        <Card>
           <Link to='./photos'>
             <Image src={img2} />
           </Link>
@@ -46,7 +47,7 @@ render() {
           </Card.Content>
         </Card>
 
-             <Card>
+        <Card>
           <Link to='./photos'>
             <Image src={img3} />
           </Link>
@@ -60,7 +61,7 @@ render() {
           </Card.Content>
         </Card>
 
-             <Card>
+        <Card>
           <Link to='./photos'>
             <Image src={img8} />
           </Link>
@@ -74,7 +75,7 @@ render() {
           </Card.Content>
         </Card>
 
-             <Card>
+        <Card>
           <Link to='./photos'>
             <Image src={img5} />
           </Link>
@@ -88,7 +89,7 @@ render() {
           </Card.Content>
         </Card>
 
-             <Card>
+        <Card>
           <Link to='./photos'>
             <Image src={img6} />
           </Link>
@@ -102,7 +103,7 @@ render() {
           </Card.Content>
         </Card>
 
-                <Card>
+        <Card>
           <Link to='./photos'>
             <Image src={img7} />
           </Link>
@@ -117,7 +118,7 @@ render() {
         </Card>
 
 
-                <Card>
+        <Card>
           <Link to='./photos'>
             <Image src={img4} />
           </Link>
@@ -135,6 +136,5 @@ render() {
   );
 }
 }
-
 
 export default AlbumsView;

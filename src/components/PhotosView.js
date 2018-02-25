@@ -50,10 +50,11 @@ class PhotosView extends Component {
       currentImage: this.state.currentImage + 1,
     });
   }
+  
   render() {
     return (
-      <div>
-            <Link to="/"><p className="back-btn"><Icon name="angle left" />BACK</p></Link>   
+    <div>
+        <Link to="/"><p className="back-btn"><Icon name="angle left" />BACK</p></Link>   
       <div className="photos-box">
         <Gallery photos={photos} onClick={this.openLightbox} />
         <Lightbox images={photos}
@@ -64,7 +65,7 @@ class PhotosView extends Component {
           isOpen={this.state.lightboxIsOpen}
         />
       </div>
-      </div>
+    </div>
     )
   }
 }
