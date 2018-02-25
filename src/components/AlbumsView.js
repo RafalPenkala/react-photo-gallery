@@ -27,7 +27,7 @@ render() {
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
-              Authors profile
+              Author's profile
             </Link>
           </Card.Content>
         </Card>
@@ -41,7 +41,7 @@ render() {
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
-              Authors profile
+              Author's profile
             </Link>
           </Card.Content>
         </Card>
@@ -55,7 +55,7 @@ render() {
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
-              Authors profile
+              Author's profile
             </Link>
           </Card.Content>
         </Card>
@@ -69,7 +69,7 @@ render() {
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
-              Authors profile
+              Author's profile
             </Link>
           </Card.Content>
         </Card>
@@ -83,7 +83,7 @@ render() {
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
-              Authors profile
+              Author's profile
             </Link>
           </Card.Content>
         </Card>
@@ -97,7 +97,7 @@ render() {
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
-              Authors profile
+              Author's profile
             </Link>
           </Card.Content>
         </Card>
@@ -111,7 +111,7 @@ render() {
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
-              Authors profile
+              Author's profile
             </Link>
           </Card.Content>
         </Card>
@@ -126,7 +126,7 @@ render() {
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
-              Authors profile
+              Author's profile
             </Link>
           </Card.Content>
         </Card>
