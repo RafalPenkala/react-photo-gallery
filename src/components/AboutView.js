@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Card, Image, Icon } from 'semantic-ui-react'
 
 import './AboutView.css';
-import land from './images/photo_3.jpg';
+import land from './images/photo_2.jpg';
 import face from './images/face_2.png';
 
 

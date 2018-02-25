@@ -1,5 +1,5 @@
 .about-box {
-  max-width: 100rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@
 
 .ui.card{
   width: 100%;
-  min-height: 60rem;
+  min-height: 70rem;
   border: 1px solid #ddc692;
   border-radius: 1px;
   -webkit-box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.15);
@@ -27,7 +27,7 @@
 
 .about-box .ui.card>.content{
   position: absolute;
-  top: 35rem;
+  top: 45rem;
   left: 15rem;
   padding: 1rem 6rem;
   border-top: none;
@@ -43,7 +43,7 @@ a:hover {
   color: #665836; 
 }
 
-@media screen and (max-width: 56.5em) {
+/* @media screen and (max-width: 75em) {
   .about-box .ui.card>.content{
     padding: 1rem 3rem 1rem 8rem;
     position: absolute;
@@ -51,9 +51,20 @@ a:hover {
     left: 15rem;
   }
 
+} */
+
+
+@media screen and (max-width: 56.5em) {
+  .about-box .ui.card>.content{
+    padding: 1rem 3rem 1rem 8rem;
+    position: absolute;
+    top: 40rem;
+    left: 15rem;
+  }
+
   .ui.card>.image.about-circular, .ui.cards>.card>.image.about-circular {
     position: absolute;
-    top: 23rem;
+    top: 18rem;
     left: 3rem;
   }
 }
@@ -62,7 +73,7 @@ a:hover {
   .about-box .ui.card>.content{
     padding: 1rem 5rem;
     position: absolute;
-    top: 25rem;
+    top: 28rem;
     left: 3rem;
   }
 

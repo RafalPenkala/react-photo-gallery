@@ -1,5 +1,5 @@
 .photos-box {
-  max-width: 100rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 2rem;
   border: 1px solid #ddc692;
@@ -12,5 +12,11 @@
   display: block;
   text-align: left;
   padding-bottom: 1rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
   }
+
+  @media only screen and (max-width: 75em) {
+    .back-btn { padding-left: 2rem; } }
+  @media only screen and (max-width: 56.25em) {
+      .back-btn { padding-left: 2rem; } }
+  

@@ -10,7 +10,7 @@ import img4 from './images/photo_7.jpg'
 import img5 from './images/photo_8.jpg'
 import img6 from './images/photo_9.jpg'
 import img7 from './images/photo_10.jpg'
-import img8 from './images/photo_11.jpg'
+import img8 from './images/photo_3.jpg'
 
 
 class AlbumsView extends Component {
@@ -23,7 +23,7 @@ render() {
             <Image src={img1} />
           </Link>
           <Card.Content>
-            <Card.Header>Portraits etc.</Card.Header>
+            <Card.Header>"Panoramas"</Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
@@ -37,7 +37,7 @@ render() {
             <Image src={img2} />
           </Link>
           <Card.Content>
-            <Card.Header>My travels</Card.Header>
+            <Card.Header>"Still life"</Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
@@ -51,7 +51,7 @@ render() {
             <Image src={img3} />
           </Link>
           <Card.Content>
-            <Card.Header>Dreamhouses</Card.Header>
+            <Card.Header>"Cities"</Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
@@ -65,7 +65,7 @@ render() {
             <Image src={img8} />
           </Link>
           <Card.Content>
-            <Card.Header>Industrial</Card.Header>
+            <Card.Header>"Gadgets"</Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
@@ -79,7 +79,7 @@ render() {
             <Image src={img5} />
           </Link>
           <Card.Content>
-            <Card.Header>Design</Card.Header>
+            <Card.Header>"Landscapes"</Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
@@ -93,7 +93,7 @@ render() {
             <Image src={img6} />
           </Link>
           <Card.Content>
-            <Card.Header>Pure Art</Card.Header>
+            <Card.Header>"Travels"</Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
@@ -107,7 +107,7 @@ render() {
             <Image src={img7} />
           </Link>
           <Card.Content>
-            <Card.Header>At work</Card.Header>
+            <Card.Header>"Urban exploration"</Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
@@ -122,7 +122,7 @@ render() {
             <Image src={img4} />
           </Link>
           <Card.Content>
-            <Card.Header>Stills</Card.Header>
+            <Card.Header>"Nature"</Card.Header>
           </Card.Content>
           <Card.Content extra>
             <Link to='./about'>
